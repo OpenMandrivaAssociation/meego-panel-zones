@@ -8,6 +8,11 @@ URL: https://www.meego.com
 Source0: http://repo.meego.com/MeeGo/releases/1.1/netbook/repos/source/%{name}-%{version}.tar.gz
 Requires: mx
 Requires: mutter-meego
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libclutter1.0-devel
 BuildRequires: libgtk+2-devel
 BuildRequires: libgnome-menu-devel
